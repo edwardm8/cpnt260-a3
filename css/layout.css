@@ -1,0 +1,22 @@
+body{
+  font-size: 80px;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  
+  height: 100vh;
+
+  background-color: rebeccapurple;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+} 
+
+p{
+  align-items: left;
+  font-size: 40px;
+}
