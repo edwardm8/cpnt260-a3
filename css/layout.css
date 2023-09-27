@@ -1,22 +1,36 @@
 body{
-  font-size: 80px;
+  font-size: 38px;
   margin: 0;
 }
 
 header {
   display: flex;
-  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
   
   height: 100vh;
 
-  background-color: rebeccapurple;
   background-image: url(../images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+
+  text-shadow: 2px 2px black;
 } 
 
+h1{
+  font-family: "Luckiest Guy", sans-serif;
+  color: white;
+
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
 p{
-  align-items: left;
-  font-size: 40px;
+  font-family: "Lato", serif;
+
+  color: white;
+
+  font-size: 30px;
 }
