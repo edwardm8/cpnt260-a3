@@ -6,8 +6,8 @@ a{
   background-color: rebeccapurple;
  
   width: fit-content;
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 15px;
+  border-radius: 50px;
 }
 
 a:hover{
