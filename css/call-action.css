@@ -1,0 +1,17 @@
+/*link button creation and styling*/
+a{
+  text-decoration: none;
+
+  color: white;
+  background-color: rebeccapurple;
+ 
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+a:hover{
+  color: black;
+  background-color: pink;
+  text-shadow: none;
+}

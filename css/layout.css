@@ -1,53 +1,25 @@
+/*generic body*/
 body{
-  font-size: 38px;
+  font-size: 30px;
+
+  line-height: 1.4;
+
   margin: 0;
 }
 
-header {
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  
-  height: 100vh;
-
-  background-image: url(../images/hero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-
-  text-shadow: 2px 2px black;
-} 
-
-h1{
-  font-family: "Luckiest Guy", sans-serif;
-  color: white;
-
-  padding: 1rem;
-  margin-bottom: 0;
+/*increase font size when on desktop*/
+@media (width>50rem){
+  body{
+    font-size: 38px;
+  }
+  p{
+    font-size: 30px;
+  }
 }
 
-p{
-  font-family: "Lato", serif;
-
-  color: white;
-
-  font-size: 30px;
-}
-
-a{
-  text-decoration: none;
-
-  color: white;
-  background-color: rebeccapurple;
+/*text underneath hero*/
+.text{
+  font-size: 20px;
  
-  width: fit-content;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-a:hover{
   color: black;
-  background-color: pink;
-  text-shadow: none;
 }
