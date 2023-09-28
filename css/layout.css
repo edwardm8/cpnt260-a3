@@ -8,7 +8,7 @@ body{
 }
 
 /*increase font size when on desktop*/
-@media (width>50rem){
+@media screen and (width>50rem){
   body{
     font-size: 38px;
   }
